@@ -1,0 +1,36 @@
+.head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 100%;
+  background-color: pink;
+}
+
+.button {
+  width: 40px;
+  margin-right: 20px;
+}
+
+.menu {
+  position: absolute;
+  top: 5%;
+  left: 100%;
+  -webkit-transition: top ease 2s;
+  transition: top ease 2s;
+}
+
+.new-position {
+  left: 65%;
+}
+
+/*# sourceMappingURL=main.css.map */
